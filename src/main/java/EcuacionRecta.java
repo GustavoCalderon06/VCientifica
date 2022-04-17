@@ -69,7 +69,7 @@ public class EcuacionRecta {
         System.out.println("De acuerdo, Tus puntos en la recta son: (" + x1 + " , " + y1 + ") y (" + x2 + " , " + y2 + ")");
     }
 
-    public static void MostrarSolucion(double B1,double M1){
+    public static void MostrarSolucion(double M1,double B1){
         System.out.println("Su solucion del tipo Y=mX+b es:");
         System.out.println("Y = " + M1 + "X + " + B1);
         System.out.println("=================================================");
